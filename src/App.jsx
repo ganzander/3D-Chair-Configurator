@@ -5,7 +5,7 @@ import {
   Environment,
   MeshReflectorMaterial,
 } from "@react-three/drei";
-import { CustomizationProvider } from "./context/customization";
+import { CustomizationProvider } from "./context/Customization";
 import Chair from "./components/Chair";
 import Configurator from "./components/Configurator";
 
