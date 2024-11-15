@@ -1,7 +1,7 @@
 import React from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
-import { useCustomization } from "../context/customization";
+import { useCustomization } from "../context/Customization";
 
 export default function Chair(props) {
   const { nodes, materials } = useGLTF("/model/chair-transformed.glb");

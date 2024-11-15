@@ -3,7 +3,7 @@ import {
   chairColors,
   cushionColors,
   useCustomization,
-} from "../context/customization";
+} from "../context/Customization";
 
 export default function Configurator() {
   const {
